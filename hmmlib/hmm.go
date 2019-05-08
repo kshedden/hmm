@@ -269,6 +269,11 @@ func (hmm *HMM) reconstructionProbs(p int, lpr []float64, lpt []int) {
 	}
 }
 
+// Message writes a message to the message log.
+func (hmm *HMM) Message(msg string) {
+	hmm.msglogger.Print(msg)
+}
+
 func (hmm *HMM) traceback(p int, lpr []float64, lpt []int) {
 
 	obs := hmm.Obs[p]

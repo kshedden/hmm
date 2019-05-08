@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/kshedden/multihmm/hmmlib"
-	"github.com/kshedden/multihmm/hmmsim"
+	"github.com/kshedden/hmm/hmmlib"
+	"github.com/kshedden/hmm/hmmsim"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/kshedden/multihmm/hmmlib"
+	"github.com/kshedden/hmm/hmmlib"
 )
 
 var (
